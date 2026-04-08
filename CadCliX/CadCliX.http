@@ -1,0 +1,6 @@
+@CadCliX_HostAddress = http://localhost:5121
+
+GET {{CadCliX_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
