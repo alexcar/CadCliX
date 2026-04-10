@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="CadCliX.Tests/CadCliX.Tests.csproj" Id="890bac04-c5d1-4f6f-bf22-52b2f072b254" />
   <Project Path="CadCliX/CadCliX.csproj" />
 </Solution>
