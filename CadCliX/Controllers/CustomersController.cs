@@ -5,6 +5,8 @@ namespace CadCliX.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ImportCustomersController : ControllerBase
+public class CustomersController : ControllerBase
 {
+
+    
 }
