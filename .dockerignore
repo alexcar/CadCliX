@@ -1,0 +1,41 @@
+# Directories
+**/bin/
+**/obj/
+**/out/
+**/TestResults/
+**/.vs/
+**/.vscode/
+**/.idea/
+**/node_modules/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation and files
+*.md
+LICENSE
+*.txt
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# CI/CD
+.github/
+.azure/
+
+# IDE and OS files
+*.user
+*.suo
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+# Test projects
+CadCliX.Tests/
+
+# Logs
+*.log
