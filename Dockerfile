@@ -21,6 +21,10 @@ WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
 
+# Set environment to Development to enable Swagger
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV ASPNETCORE_HTTP_PORTS=8080
+
 # Copy published app
 COPY --from=publish /app/publish .
 
